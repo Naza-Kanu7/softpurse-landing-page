@@ -1,0 +1,411 @@
+.firstsection-container {
+    background-color: #D1D1D6;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+
+.firstsection-texts {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 40px;
+    flex: 60%;
+}
+
+.firstsection-texts h2 {
+    font-family: 'Poppins';
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.firstsection-texts p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.firstsection-image {
+    padding-right: 90px;
+    padding-top: 70px;
+}
+
+.firstsection-image img {
+    width: 400px;
+    /* transform: rotate(17deg) */
+}
+
+.firstsection-buttons {
+    display: flex;
+    padding-top: 30px;
+}
+
+.firstsection-buttons button {
+    background-color: #000533;
+    border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 65px;
+}
+
+.firstsection-buttons img {
+    height: 65px;
+    width: 200px;
+}
+@media screen and (min-width: 1600px) {
+    .firstsection-texts {
+        padding-left: 150px;
+        padding-right: 40px;
+        flex: 60%;
+    }
+    .firstsection-texts h2{
+        padding-bottom: 45px;
+    }
+    .firstsection-image {
+        padding-left: 110px;
+        padding-right: 30px;
+        flex: 40%;
+    }
+    .firstsection-image img {
+        width: 650px;
+    }
+    .firstsection-buttons button{
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .firstsection-image {
+        padding-right: 1px;
+        flex: 40%;
+    }
+}
+
+@media screen and (min-width: 1590px) {
+    .firstsection-container {
+        background-color: #D1D1D6;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 200px;
+        /* position: relative; */
+    }
+    .firstsection-texts h2 {
+        font-size: 54px;
+        line-height: 75px;
+        padding-bottom: 35px;
+    }
+    
+    .firstsection-texts p {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 55px;
+        color: #000000;
+    }
+    .firstsection-buttons {
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .firstsection-buttons button {
+        font-size: 25px;
+        width: 250px;
+        height: 75px;
+    }
+    
+    .firstsection-buttons img {
+        height: 75px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .firstsection-image img {
+        width: 350px;
+    }
+
+    .firstsection-image {
+        padding-top: 120px;
+    }
+    .firstsection-texts {
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-right: 30px;
+        flex: 50%;
+    }
+
+    .firstsection-buttons {
+        display: flex;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .firstsection-image img {
+        width: 320px;
+        
+    }
+
+    .firstsection-texts h2 {
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .firstsection-texts p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35px;
+        color: #000000;
+    }
+
+    .firstsection-texts {
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 10px;
+        flex: 60%;
+    }
+
+    .firstsection-image {
+        padding-top: 150px;
+        padding-right: 40px;
+    }
+
+    .firstsection-buttons {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    .firstsection-buttons button {
+        height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .firstsection-buttons img {
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .firstsection-image img {
+        width: 300px;
+    }
+    .firstsection-image {
+        padding-top: 150px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .firstsection-image img {
+        width: 270px;
+    }
+
+    .firstsection-texts h2 {
+        font-size: 34px;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .firstsection-texts p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        color: #000000;
+    }
+
+    .firstsection-texts {
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 30px;
+        flex: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .firstsection-image img {
+        width: 200px;
+    }
+
+    .firstsection-buttons button {
+        height: 45px;
+        margin-bottom: 20px;
+    }
+
+    .firstsection-buttons img {
+        height: 45px;
+    }
+
+    .firstsection-texts {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .firstsection-container{
+        flex-direction: column;
+        padding-left: 20px;
+        align-items: center;
+        padding-top: 70px;
+    }
+    .firstsection-texts h2{
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 800;
+    }
+    .firstsection-texts p {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .firstsection-image img {
+        width: 320px;
+    }
+    .firstsection-buttons {
+        flex-direction: row;
+    }
+    .firstsection-buttons button {
+        height: 60px;
+        margin-bottom: 15px;
+        width: 180px;
+    }
+
+    .firstsection-buttons img {
+        height: 60px;
+        width: 180px;
+    }
+
+    .firstsection-container {
+        padding-top: 20px;
+    }
+
+    .firstsection-texts {
+        padding-left: 20px;
+        padding-right: 25px;
+        padding-top: 40px;
+        flex: 60%;
+    }
+
+    .firstsection-image {
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .firstsection-container {
+        padding-top: 50px;
+    }
+
+    .firstsection-texts {
+        /* padding-left: 20px; */
+        padding-right: 15px;
+        padding-top: 20px;
+        flex: 60%;
+    }
+    .firstsection-texts h2{
+        font-size: 50px;
+        line-height: 70px;
+        font-weight: 800;
+    }
+
+    .firstsection-image img {
+        /* height: 450px; */
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .firstsection-image img {
+        /* height: 450px; */
+        width: 300px;
+    }
+
+    .firstsection-texts h2 {
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: left;
+        font-weight: 800;
+    }
+
+    .firstsection-texts p {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .firstsection-buttons button {
+        height: 50px;
+        margin-bottom: 15px;
+        width: 140px;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .firstsection-buttons img {
+        height: 50px;
+        width: 140px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .firstsection-image img {
+        width: 220px;
+        /* height: 250px; */
+    }
+    .firstsection-image {
+        padding-top: 70px;
+        padding-right: 0;
+    }
+    .firstsection-texts {
+        padding-left: 10px;
+        padding-right: 0;
+        padding-top: 20px;
+        flex: 50%;
+    }
+    .firstsection-buttons {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 270px) {
+    
+    .firstsection-container{
+        flex-direction: column;
+    }
+    .firstsection-image{
+        padding-left: 10px;
+    }
+    .firstsection-image img {
+        width: 170px;
+        height: 250px;
+    }
+    .firstsection-texts h2 {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 200px) {
+    .firstsection-image img {
+        width: 120px;
+        height: 250px;
+    }
+    .firstsection-image{
+        padding-left: 10px;
+    }
+}

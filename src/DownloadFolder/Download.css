@@ -1,0 +1,99 @@
+.download-section-container {
+  background-color: #d1d1d6;
+  padding-top: 80px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.download-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.download-image {
+  width: 40%;
+}
+.download-image img {
+  width: 100%;
+}
+.download-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.download-texts h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 72px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.qr-code {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+.qr-code img {
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .download-image {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .download-section-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .download-section-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .download-texts h2 {
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .download-texts h2 {
+    font-size: 25px;
+    line-height: 52px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .qr-code {
+    padding: 12px;
+  }
+  .google-play{
+    width: 60%;
+  }
+  .google-play img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .download-image {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .download-texts {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .download-section-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
